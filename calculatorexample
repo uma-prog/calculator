@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Internal JavaScript</title>
+    <script type="text/javascript" src="Cal.js"></script>
+    <link rel="stylesheet" type="text/css" href="cal2.css" media="screen"/>
+    </head>
+
+<body>
+    <h1>CalCulator</h1>
+    <form method="get">
+       Enter First Number: <input type="text" name="first_num" id="first_num" />
+        <br><br>
+         Enter Second Number: <input type="text" name="second_num" id="second_num" />
+        <br><br>
+        <input type="button" name="Addition" value="addition" onclick="addition();"/>
+
+        <input type="button" name="Subtraction" value="subtract" onclick="subtract();"/>
+        
+        <input type="button" name="Multiplication" value="multiplication" onclick="multiplication();"/>
+        
+        <input type="button" name="division" value="division" onclick="divide();"/>
+        
+        
+    </form>
+    
+    <p>The Result is: <br>
+    <span id="result"></span>
+    
+    </p>
+</body>
+</html>
